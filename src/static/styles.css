@@ -136,6 +136,36 @@ button:hover {
   display: none;
 }
 
+/* Participants section styles for activity cards */
+.activity-card .participants {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.activity-card .participants strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #1a237e;
+}
+
+.participants-list {
+  margin: 6px 0 0 1.2rem;
+  padding: 0;
+}
+
+.participants-list li {
+  list-style-type: disc;
+  margin: 4px 0;
+  word-break: break-word;
+}
+
+.no-participants {
+  font-style: italic;
+  color: #666;
+  margin-top: 6px;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
