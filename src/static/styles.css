@@ -149,15 +149,33 @@ button:hover {
   color: #1a237e;
 }
 
+
 .participants-list {
-  margin: 6px 0 0 1.2rem;
+  margin: 6px 0 0 0;
   padding: 0;
+  list-style: none;
 }
 
 .participants-list li {
-  list-style-type: disc;
+  display: flex;
+  align-items: center;
   margin: 4px 0;
   word-break: break-word;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  color: #c62828;
+  font-size: 1.1em;
+  margin-left: 8px;
+  cursor: pointer;
+  padding: 2px 5px;
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+.delete-participant:hover {
+  background: #ffebee;
 }
 
 .no-participants {
