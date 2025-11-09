@@ -136,6 +136,54 @@ button:hover {
   display: none;
 }
 
+/* Participants section styles for activity cards */
+.activity-card .participants {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.activity-card .participants strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #1a237e;
+}
+
+
+.participants-list {
+  margin: 6px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+  word-break: break-word;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  color: #c62828;
+  font-size: 1.1em;
+  margin-left: 8px;
+  cursor: pointer;
+  padding: 2px 5px;
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+.delete-participant:hover {
+  background: #ffebee;
+}
+
+.no-participants {
+  font-style: italic;
+  color: #666;
+  margin-top: 6px;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;

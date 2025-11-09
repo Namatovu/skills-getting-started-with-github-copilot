@@ -1,2 +1,7 @@
+# For testing
+pytest
+pytest-cov
+fastapi
+requests
 fastapi
 uvicorn
